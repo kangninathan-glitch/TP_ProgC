@@ -4,7 +4,7 @@ int main() {
 
     int num1 = 12;
     int num2 = 5;
-    char op = '+';   // change pour tester : + - * / % & | ~
+    char op = '+';   
 
     int resultat;
 
@@ -54,7 +54,7 @@ int main() {
             break;
 
         case '~':
-            // opérateur unaire : s'applique sur un seul nombre
+            
             resultat = ~num1;
             printf("~%d = %d\n", num1, resultat);
             break;
@@ -66,4 +66,5 @@ int main() {
 
     return 0;
 }
+
 

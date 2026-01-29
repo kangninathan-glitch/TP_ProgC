@@ -2,11 +2,11 @@
 
 int main() {
 
-    int a = 2;   // base
-    int b = 3;   // exposant
-    int resultat = 1;  // doit commencer à 1 pour multiplier correctement
+    int a = 2;   
+    int b = 3;   
+    int resultat = 1;  
 
-    // boucle pour calculer a^b
+    
     for (int i = 0; i < b; i++) {
         resultat = resultat * a;
     }

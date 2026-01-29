@@ -17,7 +17,7 @@ int main() {
                 if (j % 2 == 1)
                     printf("* ");
                 else
-                    printf("# ");
+                    printf("+ ");
             }
         }
 

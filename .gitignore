@@ -64,3 +64,21 @@ binaire
 pyramide
 puissance
 
+# executables
+a.out
+*.out
+*.exe
+
+# (optionnel) ignorer tous les binaires sans extension dans src
+TP1/src/cercle
+TP1/src/variables
+TP1/src/operateurs
+TP1/src/sizeof_types
+TP1/src/boucles
+TP1/src/boucles_while
+TP1/src/conditions
+TP1/src/calculs
+TP1/src/binaire
+TP1/src/pyramide
+TP2/src/puissance
+

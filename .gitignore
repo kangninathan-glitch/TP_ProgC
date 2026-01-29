@@ -50,3 +50,17 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.out
+a.out
+cercle
+variables
+operateurs
+sizeof_types
+boucles
+boucles_while
+conditions
+calculs
+binaire
+pyramide
+puissance
+

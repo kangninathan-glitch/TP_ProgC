@@ -2,7 +2,7 @@
 
 int main() {
 
-    int compteur = 5;   // change la valeur pour tester
+    int compteur = 5;   
 
     int i = 1;
     while (i <= compteur) {
@@ -10,16 +10,16 @@ int main() {
         int j = 1;
         while (j <= i) {
 
-            // Si on est sur la dernière ligne → seulement des étoiles
+            
             if (i == compteur) {
                 printf("* ");
             }
-            // Sinon : alterne *, #, *, # ...
+            
             else {
                 if (j % 2 == 1)
                     printf("* ");
                 else
-                    printf("# ");
+                    printf("+ ");
             }
 
             j++;
